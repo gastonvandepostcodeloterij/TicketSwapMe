@@ -24,8 +24,8 @@ class TicketSwapMe:
         self.has_tickets = False
 
     def login(self):
-        username = 'insert facebook email here'
-        password = 'insert facebook password here'
+        username = thomas.vangerwen22@gmail.com
+        password = familieVG
 
         self.driver.get(HOST)
         login_button = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/nav/div[1]/ul/li[3]/button")
@@ -54,7 +54,7 @@ class TicketSwapMe:
 
     def start(self):
         time.sleep(7)
-        self.driver.get('insert url here')
+        self.driver.get(https://www.ticketswap.com/event/awakenings-upclose-ade-2024-marlon-hoffstadt-four-tet/upclose-presents-marlon-hoffstadt-wednesday-16-10/58e854d5-7f8d-45e8-8504-e0c7663494ee/3697814)
 
         while True:
             time.sleep(3)
